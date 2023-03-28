@@ -12,7 +12,7 @@ body{
 	color: #887859;	
 	display: flex;
 	flex-direction: row;
-	background-image: url(https://images8.alphacoders.com/118/1186452.jpg);
+	background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/04/elden-ring-caelid.jpg);
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
@@ -22,10 +22,10 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items:flex-start;
-	background-color: black;
+	background-color: #330D05;
 	border-right: solid #887859 0.5px;
 	height: auto;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 #navbar > h1{
@@ -51,6 +51,33 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center	;
+}
+
+#background{
+	margin: 30px;
+	background-color: #721702;
+	opacity: 0.9;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center	;
+}
+
+#background > h1{
+	margin: 0px;
+	font-size: 50px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.contentImage{
+	max-width: 600px;
+	height: auto;
+	border: solid #887859 0.7px;
+	margin: 10px;
 }
 
 #headTitle{
@@ -80,7 +107,8 @@ body{
 	padding:0px;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	max-width: 75%;
 	background-color: black;
 	opacity: 0.8;
